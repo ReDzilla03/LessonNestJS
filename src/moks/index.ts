@@ -1,0 +1,72 @@
+export const users = [
+    {
+      "_id": "66e6a53a72f5b364a1ffe04e",
+      "isActive": true,
+      "balance": "$1,641.97",
+      "picture": "http://placehold.it/32x32",
+      "age": 40,
+      "eyeColor": "blue",
+      "name": "Rosalind Leblanc",
+      "gender": "female",
+      "company": "OPTYK",
+      "email": "rosalindleblanc@optyk.com",
+      "phone": "+1 (939) 545-3432",
+      "address": "574 Radde Place, Bagtown, Michigan, 8273"
+    },
+    {
+      "_id": "66e6a53a19985dea3cbca3c7",
+      "isActive": false,
+      "balance": "$3,810.76",
+      "picture": "http://placehold.it/32x32",
+      "age": 25,
+      "eyeColor": "blue",
+      "name": "Karin Sykes",
+      "gender": "female",
+      "company": "PARAGONIA",
+      "email": "karinsykes@paragonia.com",
+      "phone": "+1 (894) 488-2961",
+      "address": "760 Lincoln Place, Orin, Kentucky, 3834"
+    },
+    {
+      "_id": "66e6a53a2727e3e5e5f97a32",
+      "isActive": true,
+      "balance": "$1,802.43",
+      "picture": "http://placehold.it/32x32",
+      "age": 23,
+      "eyeColor": "brown",
+      "name": "Sears Pickett",
+      "gender": "male",
+      "company": "CEPRENE",
+      "email": "searspickett@ceprene.com",
+      "phone": "+1 (870) 442-3269",
+      "address": "324 Cooke Court, Nescatunga, Federated States Of Micronesia, 5757"
+    },
+    {
+      "_id": "66e6a53af0c439c6c6aafe5e",
+      "isActive": false,
+      "balance": "$2,369.96",
+      "picture": "http://placehold.it/32x32",
+      "age": 27,
+      "eyeColor": "blue",
+      "name": "Letha Lowe",
+      "gender": "female",
+      "company": "TECHTRIX",
+      "email": "lethalowe@techtrix.com",
+      "phone": "+1 (997) 437-2242",
+      "address": "671 Guernsey Street, Cochranville, Mississippi, 9335"
+    },
+    {
+      "_id": "66e6a53ab9a2e4b5871ca417",
+      "isActive": true,
+      "balance": "$1,231.21",
+      "picture": "http://placehold.it/32x32",
+      "age": 40,
+      "eyeColor": "green",
+      "name": "Duke Hendricks",
+      "gender": "male",
+      "company": "FUELTON",
+      "email": "dukehendricks@fuelton.com",
+      "phone": "+1 (873) 480-2966",
+      "address": "887 Wythe Place, Turah, Louisiana, 9372"
+    }
+  ]
