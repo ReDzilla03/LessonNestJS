@@ -4,7 +4,7 @@ import { CreateUserDTO } from '../users/dto';
 import { UserLoginDTO } from './dto';
 import { ApiResponse, ApiTags } from '@nestjs/swagger';
 import { AuthUserResponse } from './response';
-import { JwtAuthGuard } from 'src/guards/jwt-guards';
+
 
 @Controller('auth')
 export class AuthController {
@@ -13,20 +13,15 @@ export class AuthController {
 
   @ApiTags('API')
   @ApiResponse({status: 201, type: CreateUserDTO})
-  @HttpCode(201)
   @Post('register')
   register(@Body() dto: CreateUserDTO): Promise<CreateUserDTO> {
     return this.authService.registerUsers(dto);
   }
 
+  @ApiTags('API')
+  @ApiResponse({status: 200, type: AuthUserResponse})
   @Post('login')
-  login(@Body() dto: UserLoginDTO): Promise<any> {
+  login(@Body() dto: UserLoginDTO): Promise<AuthUserResponse> {
     return this.authService.loginUser(dto);
-  }
-
-  @UseGuards(JwtAuthGuard)
-  @Post('test')
-  test () {
-    return true
   }
 }
